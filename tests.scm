@@ -801,6 +801,14 @@ stuff
 (count_change 20 us_coins 18)
 ; expect 8
 
+(define us_coins '(50 25))
+(count_change 20 '(50 25) 18)
+; expect 0
+
+(define us_coins '(100 50 25 10 5 1))
+(count_change 110 us_coins 7)
+; expect 9
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

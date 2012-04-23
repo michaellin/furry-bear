@@ -1,7 +1,10 @@
 ;;; Your entry for the Scheme contest
 ;;;
 ;;; Title: 
-;;;   <insert your title>
+;;;   Thunder Ant
 ;;;
 ;;; Description:
 ;;;   <insert your haiku>
+
+(define (SieveAtkinPred limit)
+  )
